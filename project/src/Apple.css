@@ -1,0 +1,13 @@
+h1 {
+    color: blue;
+    text-align: center;
+    size: 0ex;
+}
+body {
+    border: 4px solid yellowgreen;
+}
+
+.jagan {
+    height: 200px;
+    width: 200px;
+}
