@@ -3,6 +3,7 @@ import './Apple.css';
 import Demo from './Demo';
 import Clickevents from './Events/Clickevents';
 import Eventlistener from './Events/Eventlistener';
+import Formman from './FormEvents/Formman';
 import Apple from './NestedComponents/Apple';
 import Destructprops from './Props/Destructprops';
 import Firstcomp from './Props/Firstcomp';
@@ -27,6 +28,7 @@ const phone={
 function App() {
   return (
     <div>
+      <Formman/>
       <Eventlistener/>
       <Clickevents/>
       <h2><Usestate/></h2>
